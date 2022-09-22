@@ -17,6 +17,7 @@ public class Usuario {
         this.email = email;
     }
 
+    public Usuario(){}
     public int getId() {
         return id;
     }
@@ -42,7 +43,7 @@ public class Usuario {
     }
 
     public String toString() {
-        return this.id + " " + this.nome + " email:" + this.email;
+        return this.nome + " email:" + this.email;
     }
 
 

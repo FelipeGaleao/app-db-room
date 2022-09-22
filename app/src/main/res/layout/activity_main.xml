@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/material_dynamic_neutral95"
     tools:context=".MainActivity">
 
     <TextView
@@ -38,7 +37,8 @@
         android:onClick="adicionaUsuario"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@drawable/ic_baseline_person_add_24" />
+        tools:srcCompat="@drawable/ic_baseline_person_add_24"
+        tools:ignore="OnClick" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
